@@ -1,0 +1,250 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.delete-div{
+  color:#ff4c68;
+  padding: 5% 0 1% 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 15% 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.forma{
+  margin: 7px auto;
+  line-height: 2;
+}
+
+.first-form{
+  padding: 5% 0;
+  background-color: #ef8172;
+}
+
+.form-heading{
+  color: #ef8172;
+  margin-bottom: 2%;
+  font-size: 3.5rem;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+
+.feature-images{
+  margin-bottom: 1rem;
+  width: 90%;
+  height: 70%;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#sec{
+  position: relative;
+}
+
+
+#offers{
+  color: #ff4c68;
+  padding-top: 4%;
+  font-size: 3.5rem;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.delete-text{
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+  color: white;
+}
+
+#dropdownMenuLink{
+  margin: auto;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.modal-title{
+  font-family: Ubuntu;
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.modal-header{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.form-group{
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.col-form-label{
+  margin-left: 1%;
+}
+
+.zadnji{
+  margin-bottom: 2%;
+}
+
+#submit-food{
+  background-color: white;
+  margin: auto;
+  width: 60%;
+  padding: 2%;
+}
+
+.submit-section{
+  background-color: #ef8172;
+  padding: 5% 0;
+}
+
+.btn-mybg{
+  background-color:#ef8172;
+  color: white;
+}
+
+.delete-section{
+  background-color: #ff4c68;
+  padding-bottom: 2%;
+}
+.btn-light{
+  color: #ff4c68;
+  font-weight: bold;
+}
+
+.output{
+  color: white;
+  font-size: 1rem;
+}
+
+#delete-button{
+  margin-bottom: 2%;
+}
